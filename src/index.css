@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&family=Space+Grotesk:wght@500;700&family=JetBrains+Mono:wght@400;500;750&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  /* Sponsoring custom food restaurant palettes - Vibrant Palette theme mappings */
+  --color-red-655: #E63946;
+  --color-yellow-455: #FFC300;
+  --color-orange-555: #FF7F11;
+  
+  --color-brand-red: #E63946;
+  --color-brand-yellow: #FFC300;
+  --color-brand-orange: #FF7F11;
+}
+
+/* Custom scroll concealment utility */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Smooth selection colors */
+::selection {
+  background-color: #E63946;
+  color: white;
+}

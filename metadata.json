@@ -1,0 +1,6 @@
+{
+  "name": "FastFood Center",
+  "description": "A modern, premium fast-food restaurant website showcasing high-quality menu items, services, customer feedback, with an integrated food cart and contact channels.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
